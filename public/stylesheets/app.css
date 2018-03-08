@@ -1,0 +1,17 @@
+i.icon {
+    color: white; 
+    font-size: 2em;
+}
+
+.container.main {
+    margin-top: 7em;
+}
+
+.blog-date {
+    margin: 10px;
+}
+
+.blog-content {
+    margin: 10px 15px 20px 15px;
+    font-size: 1.3em;
+}
