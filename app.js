@@ -6,7 +6,9 @@ var methodOverride  = require("method-override"),
     app             = express();
     
 
-mongoose.connect("mongodb://localhost/restful_blog_app");
+// mongoose.connect("mongodb://localhost/restful_blog_app");
+mongoose.connect("mongodb://danskophile:1234@ds161148.mlab.com:61148/restful-blog");
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
